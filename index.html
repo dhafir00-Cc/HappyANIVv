@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Anniversary - Dhafir &amp; Intan</title>
+  <meta name="description" content="Cerita kecil anniversary 3 tahun 7 bulan untuk Intan dari Dhafir.">
+  <meta name="theme-color" content="#2c2035">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="is-locked">
+  <audio id="anniversaryMusic" src="music.mp3" preload="auto" loop></audio>
+
+  <div class="ambient-layer" aria-hidden="true"></div>
+
+  <div id="introParticles" class="particle-field intro-particles" aria-hidden="true"></div>
+  <div id="pageParticles" class="particle-field page-particles" aria-hidden="true"></div>
+  <div id="flightLayer" class="flight-layer" aria-hidden="true"></div>
+
+  <section id="musicGate" class="music-gate" aria-labelledby="gateTitle">
+    <div class="gate-glow" aria-hidden="true"></div>
+    <div class="gate-card tilt-card">
+      <p id="gateTitle" class="eyebrow">Untuk Intan</p>
+      <h1>Sebelum lanjut, nyalain lagunya dulu ya</h1>
+      <p class="gate-copy">Biar cerita kecil ini kebuka pelan-pelan, ditemani lagu dan rasa yang hangat.</p>
+      <button id="startButton" class="primary-button ripple-source" type="button">
+        <span>Nyalakan Lagu &amp; Mulai</span>
+      </button>
+      <p id="audioMessage" class="audio-message" role="status" aria-live="polite"></p>
+    </div>
+    <div id="introName" class="intro-name" aria-hidden="true">Dhafir &amp; Intan</div>
+    <div class="light-curtain" aria-hidden="true"></div>
+  </section>
+
+  <main id="mainContent" class="site-shell" aria-hidden="true">
+    <section class="hero section-panel" aria-labelledby="heroTitle">
+      <div class="hero-photo-backdrop" aria-hidden="true">
+        <img src="foto1.jpg" alt="">
+        <img src="foto4.jpg" alt="">
+        <img src="foto2.jpg" alt="">
+        <img src="foto5.jpg" alt="">
+        <img src="foto3.jpg" alt="">
+        <img src="foto6.jpg" alt="">
+      </div>
+      <div class="hero-decor" aria-hidden="true">
+        <span class="heart-outline heart-a"></span>
+        <span class="heart-outline heart-b"></span>
+        <span class="mini-sparkle sparkle-a"></span>
+        <span class="mini-sparkle sparkle-b"></span>
+      </div>
+      <div class="hero-content">
+        <p id="heroTitle" class="hero-kicker reveal-text">Happy Anniversary</p>
+        <h2 class="letter-reveal" aria-label="Dhafir &amp; Intan">
+          <span>D</span><span>h</span><span>a</span><span>f</span><span>i</span><span>r</span>
+          <span class="amp">&amp;</span>
+          <span>I</span><span>n</span><span>t</span><span>a</span><span>n</span>
+        </h2>
+        <p class="anniversary-count" data-count-text="3 Tahun 7 Bulan">3 Tahun 7 Bulan</p>
+        <p class="hero-subtitle">Makasih ya, udah jadi bagian paling hangat dari cerita ini.</p>
+        <button class="soft-button ripple-source" data-scroll-target="#surat" type="button">Baca Cerita Kita</button>
+      </div>
+    </section>
+
+    <section class="memory-note reveal" aria-label="Catatan kecil">
+      <p>Setiap foto, chat random, dan tawa kecil di halaman ini cuma cara sederhana buat bilang: aku bahagia ceritanya masih sama kamu.</p>
+    </section>
+
+    <section id="surat" class="story-section reveal envelope-reveal" aria-labelledby="letterTitle">
+      <div class="section-heading">
+        <p class="eyebrow">Surat Singkat</p>
+        <h2 id="letterTitle">Buat kamu, tempat pulang paling nyaman</h2>
+      </div>
+      <article class="letter-card shine-card tilt-card">
+        <div class="letter-fold" aria-hidden="true"></div>
+        <p>Untuk Intan,</p>
+        <p>Tiga tahun tujuh bulan ternyata udah sejauh ini ya. Dari banyak hari yang kita lewati, aku makin sadar kalo bahagia sering datang dari hal-hal simpel: kabar singkat, tawa kecil, cerita random, sampai caramu yang kadang nyebelin tapi tetap selalu aku kangenin.</p>
+        <p>Makasih sudah tetap di sini, nemenin aku, dan jadi rumah yang rasanya paling nyaman. Aku memang gk tahu semua hal di depan bakal seperti apa, tapi aku tahu satu hal: kalau sama kamu, aku masih mau terus coba.</p>
+      </article>
+    </section>
+
+    <section class="story-section reveal" aria-labelledby="timelineTitle">
+      <div class="section-heading">
+        <p class="eyebrow">Timeline Perjalanan</p>
+        <h2 id="timelineTitle">Jalan kecil cerita kita</h2>
+      </div>
+      <div id="timeline" class="timeline" aria-label="Timeline perjalanan Dhafir dan Intan">
+        <span id="timelineProgress" class="timeline-progress" aria-hidden="true"></span>
+        <article class="timeline-item shine-card ripple-source" tabindex="0">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <div class="timeline-card">
+            <h3>Awal Cerita</h3>
+            <p>Waktu semuanya mulai dari rasa penasaran yang sederhana.</p>
+            <p class="timeline-extra">Dari satu momen kecil, pelan-pelan jadi rasa yang makin hangat.</p>
+          </div>
+        </article>
+        <article class="timeline-item shine-card ripple-source" tabindex="0">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <div class="timeline-card">
+            <h3>Mulai Dekat</h3>
+            <p>Dari chat kecil, lama-lama jadi hal yang ditunggu.</p>
+            <p class="timeline-extra">Ada hari yang rasanya kurang lengkap kalau belum saling cerita sedikit saja.</p>
+          </div>
+        </article>
+        <article class="timeline-item shine-card ripple-source" tabindex="0">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <div class="timeline-card">
+            <h3>Banyak Cerita</h3>
+            <p>Kita belajar saling ngerti, saling jaga, dan saling pulang.</p>
+            <p class="timeline-extra">Nggak selalu mulus, tapi selalu ada alasan buat tetap saling pilih.</p>
+          </div>
+        </article>
+        <article class="timeline-item shine-card ripple-source" tabindex="0">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <div class="timeline-card">
+            <h3>3 Tahun 7 Bulan</h3>
+            <p>Masih di sini, masih saling pilih, masih pengin lanjut lebih jauh.</p>
+            <p class="timeline-extra">Hari ini jadi pengingat kecil kalau ternyata kita sudah sejauh ini bareng-bareng.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="story-section reveal" aria-labelledby="likesTitle">
+      <div class="section-heading">
+        <p class="eyebrow">Hal yang Aku Suka dari Kamu</p>
+        <h2 id="likesTitle">Hal kecil dari kamu yang selalu aku ingat</h2>
+      </div>
+      <div class="likes-grid">
+        <article class="like-card shine-card tilt-card ripple-source"><span>01</span>Cara kamu bikin hari biasa jadi lebih hidup</article>
+        <article class="like-card shine-card tilt-card ripple-source"><span>02</span>Senyummu yang selalu bisa bikin aku tenang</article>
+        <article class="like-card shine-card tilt-card ripple-source"><span>03</span>Sifat nyebelinmu yang anehnya tetap aku sayang</article>
+        <article class="like-card shine-card tilt-card ripple-source"><span>04</span>Cara kamu hadir, bahkan dari hal-hal kecil</article>
+        <article class="like-card shine-card tilt-card ripple-source"><span>05</span>Kamu yang selalu punya tempat sendiri di hati aku</article>
+      </div>
+    </section>
+
+    <section class="story-section reveal" aria-labelledby="galleryTitle">
+      <div class="section-heading">
+        <p class="eyebrow">Galeri Kenangan</p>
+        <h2 id="galleryTitle">Foto-foto kita</h2>
+      </div>
+      <div class="gallery-grid">
+        <figure class="photo-card shine-card ripple-source">
+          <button class="photo-frame" type="button" data-full="foto1.jpg" data-caption="Awal yang manis">
+            <img src="foto1.jpg" alt="Kenangan Dhafir dan Intan" class="photo">
+          </button>
+          <figcaption>Awal yang manis</figcaption>
+        </figure>
+        <figure class="photo-card shine-card ripple-source">
+          <button class="photo-frame" type="button" data-full="foto2.jpg" data-caption="Tawa yang disimpan">
+            <img src="foto2.jpg" alt="Kenangan Dhafir dan Intan" class="photo">
+          </button>
+          <figcaption>Tawa yang disimpan</figcaption>
+        </figure>
+        <figure class="photo-card shine-card ripple-source">
+          <button class="photo-frame" type="button" data-full="foto3.jpg" data-caption="Hari sederhana">
+            <img src="foto3.jpg" alt="Kenangan Dhafir dan Intan" class="photo">
+          </button>
+          <figcaption>Hari sederhana</figcaption>
+        </figure>
+        <figure class="photo-card shine-card ripple-source">
+          <button class="photo-frame" type="button" data-full="foto4.jpg" data-caption="Tempat favorit">
+            <img src="foto4.jpg" alt="Kenangan Dhafir dan Intan" class="photo">
+          </button>
+          <figcaption>Tempat favorit</figcaption>
+        </figure>
+        <figure class="photo-card shine-card ripple-source">
+          <button class="photo-frame" type="button" data-full="foto5.jpg" data-caption="Momen kecil">
+            <img src="foto5.jpg" alt="Kenangan Dhafir dan Intan" class="photo">
+          </button>
+          <figcaption>Momen kecil</figcaption>
+        </figure>
+        <figure class="photo-card shine-card ripple-source">
+          <button class="photo-frame" type="button" data-full="foto6.jpg" data-caption="Cerita baru">
+            <img src="foto6.jpg" alt="Kenangan Dhafir dan Intan" class="photo">
+          </button>
+          <figcaption>Cerita baru</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="story-section reveal" aria-labelledby="lyricsTitle">
+      <div class="section-heading">
+        <p class="eyebrow">Lagu Untuk Kita</p>
+        <h2 id="lyricsTitle">Kalimat kecil yang ikut nyanyi</h2>
+      </div>
+      <article class="lyrics-card shine-card">
+        <p>Tiga tahun tujuh bulan</p>
+        <p>Kita masih di sini</p>
+        <p>Bukan selalu mudah</p>
+        <p>Tapi selalu berarti</p>
+        <p>Aku masih ingat awal kita</p>
+        <p>Canggung sedikit, banyak tertawa</p>
+        <p>Dari pesan singkat yang sederhana</p>
+        <p>Sampai jadi cerita yang panjang juga</p>
+        <p>Tiga tahun tujuh bulan bersamamu</p>
+        <p>Masih jadi bagian terbaik hariku</p>
+        <p>Bukan karena semua selalu sempurna</p>
+        <p>Tapi karena kita tetap memilih bersama</p>
+        <p>Tiga tahun tujuh bulan dan aku tahu</p>
+        <p>Masih banyak jalan yang ingin kutempuh</p>
+        <p>Selama ada kamu di sebelahku</p>
+        <p>Hal sederhana pun terasa seru</p>
+      </article>
+    </section>
+
+    <section class="final-section reveal" aria-labelledby="finalTitle">
+      <div class="final-particles" aria-hidden="true"></div>
+      <p class="eyebrow">Penutup</p>
+      <h2 id="finalTitle">Buat hari ini, besok, dan cerita-cerita setelah ini...</h2>
+      <p>Aku masih mau kamu. Masih pilih kamu. Masih sayang kamu.</p>
+      <button id="secretTrigger" class="final-button ripple-source" type="button" aria-label="Happy 3 Tahun 7 Bulan, Intan. Ketuk tiga kali untuk rahasia kecil.">Happy 3 Tahun 7 Bulan, Intan.</button>
+    </section>
+  </main>
+
+  <button id="musicToggle" class="music-toggle" type="button" aria-label="Pause musik" hidden>
+    <span class="music-icon" aria-hidden="true">&#9835;</span>
+    <span class="visualizer" aria-hidden="true">
+      <i></i><i></i><i></i><i></i>
+    </span>
+  </button>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <div id="secretModal" class="secret-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="secretTitle">
+    <div class="secret-card">
+      <button id="closeSecret" class="secret-close ripple-source" type="button" aria-label="Tutup pesan rahasia">&times;</button>
+      <p id="secretTitle">Rahasia kecil:</p>
+      <h2>dari semua kemungkinan, aku tetap paling senang karena ceritanya sama kamu.</h2>
+    </div>
+  </div>
+
+  <div id="photoModal" class="photo-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="photoModalCaption">
+    <div class="photo-modal-card">
+      <button id="closePhotoModal" class="secret-close ripple-source" type="button" aria-label="Tutup foto">&times;</button>
+      <img id="photoModalImage" src="" alt="">
+      <p id="photoModalCaption"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
